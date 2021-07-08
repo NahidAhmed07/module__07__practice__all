@@ -1,0 +1,45 @@
+body{
+  margin: 0;
+}
+.navbar{
+  height: 10vh;
+  background: #000;
+}
+
+.navbar > ul{
+  display: flex;
+  margin: 0;
+  justify-content: center;
+
+}
+
+li{
+  list-style: none;
+  padding: 19px 20px;
+
+}
+
+li:hover{
+  background: #575757;
+}
+li:hover >a{
+  color: aqua;
+}
+li:hover .dropdown{
+  display: block;
+}
+
+.dropdown li:hover >a{
+  color: aqua;
+}
+.dropdown{
+  margin:0;
+  padding: 0;
+  background: #3b3b3b;
+  display: none;
+  position: absolute;
+}
+li a{
+  text-decoration: none;
+  color: aliceblue;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>form</title>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h4 class="logo">Logo</h4>
+      <ul>
+        <li><a href="main.html">Home
+          <ul class="dropdown" id="dp">
+            <li ><a href="">link1</a></li>
+            <li><a href="">link2</a></li>
+            <li><a href="">link3</a></li>
+            <li><a href="">link4</a></li>
+          </ul>
+        </a></li>
+        <li><a href="blog.html">Blog
+          <ul class="dropdown" id="dp">
+            <li ><a href="">JavaScript</a></li>
+            <li><a href="">Bootstrap</a></li>
+            <li><a href="">Html</a></li>
+            <li><a href="">Css</a></li>
+          </ul>
+        </a></li>
+        <li><a href="table.html">Table
+          <ul class="dropdown" id="dp">
+            <li ><a href="">Table-1</a></li>
+            <li><a href="">Table-2</a></li>
+            <li><a href="">Table-3</a></li>
+            <li><a href="">Table-4</a></li>
+          </ul>
+        </a></li>
+        <li><a href="form.html">Form
+          <ul class="dropdown" id="dp">
+            <li ><a href="">Form-1</a></li>
+            <li><a href="">Form-2</a></li>
+            <li><a href="">Form-3</a></li>
+            <li><a href="">Form-4</a></li>
+          </ul>
+        </a></li>
+        <li><a href="media.html">Media
+          <ul class="dropdown" id="dp">
+            <li ><a href="">Audio</a></li>
+            <li><a href="">Video</a></li>
+            <li><a href="">Picture</a></li>
+            <li><a href="">Othar</a></li>
+          </ul>
+        </a></li>
+        <li><a href="svg.html">Svg image
+          <ul class="dropdown" id="dp">
+            <li ><a href="">Link</a></li>
+            <li><a href="">Link</a></li>
+            <li><a href="">Link</a></li>
+            <li><a href="">Link</a></li>
+          </ul>
+        </a></li>
+      </ul>
+
+    </nav>
+  </header>
+
+<section id="form">
+  <h1>Kassar Pithe House</h1>
+  <h4>Pitha Kenar Form.</h4>
+  <form action="">
+    <p>Name: <input type="text" placeholder="Enter your name"></p>
+    <p>Email: <input type="email" placeholder="Enter your email"></p>
+
+    <fieldset>
+      <legend>Chose your Pitha</legend>
+      <label for="citoy">
+        <input type="radio" name="pitha" id="citoy">Citoy
+      </label><br>
+      <label for="Vapa">
+        <input type="radio" name="pitha" id="Vapa">Vapa
+      </label> <br>
+      <label for="puli pitha">
+        <input type="radio" name="pitha" id="puli pitha">puli pitha
+      </label>
+    </fieldset>
+    <p>Quantity: <input type="number" max="10" min="1" placeholder="Enter your quantity 1 to 10"></p>
+
+    <fieldset>
+      <legend>Chose Vorta</legend>
+      <label for="alu">
+        <input type="checkbox" name="vorta" id="alu"> Alu vorta
+      </label><br>
+      <label for="Shutki">
+        <input type="checkbox" name="vorta" id="Shutki"> Shutki vorta
+      </label><br>
+      <label for="Begun">
+        <input type="checkbox" name="vorta" id="Begun"> Begun vorta
+      </label>
+    </fieldset>
+    <br>
+    <label for="food"> Choce your Food:</label>
+    <select name="food" id="food">
+      <option  value="1">Please select a option</option>
+      <option value="1">meat</option>
+      <option value="1">Biriany</option>
+      <option value="1">Chicken</option>
+      <option value="1">shoup</option>
+    </select><br><br>
+    <label for="tream">
+      <input type="checkbox" name="tream" id="tream"> accepts all tream and condition
+    </label><br><br>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button><br> <br>
+    
+  
+  </form>
+</section>
+  
+</body>
+</html>
